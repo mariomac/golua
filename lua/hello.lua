@@ -1,6 +1,6 @@
-function sayhello(str)
-    go_print('hello ' .. str)
-    return string.len(str)
+function sayhello(name)
+    host_print('hello ' .. name)
+    return string.len(name)
 end
 
 
