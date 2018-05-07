@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin:'application'
+mainClassName = 'info.macias.jlua.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.luaj:luaj-jse:3.0.1'
+}
+
+
